@@ -1,10 +1,16 @@
 # NO subir datos
-data/
+
+# Ignorar todo dentro de data excepto .gitkeep
+data/*
+!data/.gitkeep
 *.csv
 *.zip
 
 # Modelos pesados
-models/
+
+# Ignorar todo dentro de models excepto .gitkeep
+models/*
+!models/.gitkeep
 
 # Notebooks checkpoints
 .ipynb_checkpoints/
