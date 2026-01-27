@@ -40,7 +40,7 @@ Dado el fuerte desbalance de clases, se priorizan métricas enfocadas en la clas
 ## Modelo Final Seleccionado
 
 **XGBoost**, ajustando:
-- $scale\_pos\_weight \approx 0.75$
+- scale_pos_weight $\approx 0.75$
 - Umbral de decisión = 0.3
 
 Resultados finales en conjunto de prueba:
